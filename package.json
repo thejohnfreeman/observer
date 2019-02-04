@@ -1,0 +1,61 @@
+{
+  "name": "@thejohnfreeman/observer",
+  "version": "1.0.0",
+  "description": "An alternative to @observer from mobx-utils.",
+  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:cjs": "tsc --project tsconfig.commonjs.json",
+    "build:es": "tsc --project tsconfig.es2015.json",
+    "build": "npm run build:cjs && npm run build:es",
+    "lint": "tsc --noEmit && tslint --project tsconfig.json 'src/**/*.{ts,tsx}'",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/jest.setup.ts"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejohnfreeman/observer.git"
+  },
+  "keywords": [
+    "react",
+    "mobx",
+    "hoc"
+  ],
+  "author": "John Freeman <jfreeman08@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thejohnfreeman/observer/issues"
+  },
+  "homepage": "https://github.com/thejohnfreeman/observer#readme",
+  "peerDependencies": {
+    "mobx": "^5.9.0",
+    "react": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.16",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.13",
+    "@types/react": "^16.8.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "jest": "^24.0.0",
+    "mobx": "^5.9.0",
+    "prettier": "^1.16.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.1"
+  }
+}
