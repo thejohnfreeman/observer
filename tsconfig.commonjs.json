@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.json",
   // Do not build our tests.
-  "files": ["src/index.tsx"],
+  "files": ["src/index.ts"],
   "compilerOptions": {
     // Generate a CommonJS module for Node.
     "module": "commonjs",

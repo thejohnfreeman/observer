@@ -3,7 +3,7 @@ import { computed } from 'mobx'
 import * as React from 'react'
 
 import enzyme from './enzyme'
-import { observer } from './observer'
+import { observer } from '.'
 
 afterEach(() => enzyme.unmountAll())
 
