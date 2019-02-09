@@ -1,6 +1,6 @@
 {
   "name": "@thejohnfreeman/observer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A higher-order component for reactive updates.",
   "types": "dist/index.d.ts",
   "main": "dist/cjs/index.js",
