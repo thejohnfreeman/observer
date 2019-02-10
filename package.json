@@ -52,8 +52,7 @@
     "react-dom": "^16.7.0",
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.1",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-react": "^3.6.0",
+    "tslint-config-thejohnfreeman": "^1.0.1",
     "typescript": "^3.3.1"
   },
   "publishConfig": {
