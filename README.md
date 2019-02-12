@@ -3,6 +3,7 @@
 A higher-order component for reactive updates.
 
 [![npm](https://img.shields.io/npm/v/@thejohnfreeman/observer.svg)](https://www.npmjs.com/package/@thejohnfreeman/observer)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@thejohnfreeman/observer.svg?style=flat)](https://bundlephobia.com/result?p=@thejohnfreeman/observer)
 [![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 [![build status](https://travis-ci.org/thejohnfreeman/observer.svg?branch=master)](https://travis-ci.org/thejohnfreeman/observer)
 
